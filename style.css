@@ -1,0 +1,47 @@
+img {
+  border-radius: 50%;
+  /* ↑画像を指定して丸くする */
+  border-style: solid;
+  border-width: 1px;
+}
+h1{
+  background-color: rgba(156, 181, 233, 0.596);
+  margin: 0px 180px 0px 180px;
+}
+p{
+  background-color: rgba(156, 181, 233, 0.596);
+  margin: 32px 120px 32px 120px;
+}
+a{
+  background-color: rgba(156, 181, 233, 0.596);
+  margin: 32px 140px 0px 140px;
+}
+
+section {
+  border-width: 1px;
+  /* ↑枠の太さ */
+  border-color: gray;
+  /* ↑枠のカラー */
+  border-style: solid;
+  /* ↑枠をつける */
+  border-radius: 8px;
+  /* ↑枠を丸くする */
+  padding: 16px;
+  /* ↑内側の余白 */
+  margin-bottom: 8px;
+  /* ↑下の外側の余白を指定する */
+  background-image: url(img/nn.jpeg);
+  /* ↑<section>タグ内に背景画像を指定できる */
+  color: midnightblue;
+}
+body {
+  text-align: center;
+  /* ↑テキストアラインで画像やテキストを中央揃いにできる */
+}
+
+li {
+  list-style: none;
+  position: absolute;
+  top: 10px;
+  right: -120px;
+}
